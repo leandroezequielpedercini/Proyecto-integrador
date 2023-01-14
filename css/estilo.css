@@ -14,13 +14,18 @@ justify-content: center;
 
 }
 
+.logoContendor{
+
+ }
+
+
 .barra{
     display: flex;
    justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px ;
     align-items:center;
-   
+
 }
 
 .navegador{
@@ -51,7 +56,7 @@ color: white;
 .busquedaContendor i{ 
 position: absolute;
 top: 18px;
-left: 50px;
+left: 500px;
 color: rgb(160, 157, 157);
 font-size: 1.2rem;
 
@@ -63,9 +68,13 @@ font-size: 1.2rem;
     border-radius:  7x;
     border: none;
     border: 1px gainsboro solid;
-    width: 300;
+    width: 500px;
     margin-left: 40px;
 }
+
+
+
+
 
 .carta{
     box-shadow:  0px 2px 5px black;
@@ -78,7 +87,8 @@ font-size: 1.2rem;
     margin-bottom: 200px; 
     border-radius: 5px; 
     text-align: center;
-;}
+
+    }
 
 .carta img{
     width: 120px;
@@ -113,33 +123,63 @@ font-size: 1.2rem;
     border: none;
     border-radius: 5px;
     margin: 20px;
-    font-size: 14px;
-    font-size: inherit;
     font-size: 20px;
+    font-size: inherit;
+    font-size: 30px;
      
  }
 
 .botonInicar{
 color: white;
 padding: 5px 20px 5px 30px ;
+padding-left: 70px;
 
 }
 
 .iconoCircular{
-color: red;
-;
- }
-.pieDePagina{
-  background: rgb(253, 97, 26);
+color: rgb(255, 255, 255);
+position: absolute;
+padding-left: 580px;
+font-size: 30px;
+}
 
- 
-  color: white;
+.irAlCarrito i{
+font-size: 20px;
+}
+
+
+.irAlCarrito span{
+background-color: red;
+width: 18px;
+height: 18px;
+border-radius: 50%;
+font-size: 12px;
+line-height: 0px;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+padding-top: -1000px;
+}
+
+.irAlCarrito{
+    position: relative;
+}
+.pieDePagina{
+    background: rgb(253, 97, 26);
+    display: flex;
+}
+
+.imagen{
 
 }
 
+
 .parrafoUno{
-margin-left: 30%;
-padding-top: 1%;
+text-align: center;
+padding-right: 20%;
+
 }
 
 .ayuda{
@@ -149,16 +189,22 @@ padding-top: 1%;
 
 .sitenéssugerenciasocomentarios{
  
+
+
 }
 
+
+
+
+
 .contactanos{
+
 
 }
 
 .parrofodos
 {
-  margin-left: 55%;
-  padding-right: 50%;
+
 }
 
 
@@ -169,13 +215,10 @@ padding-top: 1%;
 
 
 .parrafoUltimo{
- text-align: center;
- color: #6a6a6a;
- background: #f1f1f1;
- padding-top: 7px;
- font-size: 15px;
-
-}
+    padding: 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    }
 
 
 
