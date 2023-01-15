@@ -166,36 +166,48 @@ font-weight: bolder;
 .irAlCarrito{
     position: relative;
 }
+
+
+
 .pieDePagina{
- 
     background: rgb(253, 97, 26);
     display: flex;
 }
 
 .imagen{
-
-height: 1px;
-width: 1px;
-
+    Scale: 0.2;
+    position: absolute;
+    padding-right: 700px;
+    height: 1px;
+    padding-top: 17px;
 }
 
 
+    
+
 .parrafoUno{
-position: relative;
-padding-left: 20%;
+
+
 color: white;
-padding: 0px 600px;
-margin-top: 14px;
+padding: 0px 500px;
+margin-top: -1px;
+font-size: 12px;
+text-align: center;
 
 }
 
 .ayuda{
-  align-self: center };
+    
+   font-weight: bold;
+     
+}
+
+
 
 
 .sitenéssugerenciasocomentarios{
-align-items: center; 
-
+position: absolute;
+padding-right: 0%;
 
 }
 
@@ -204,38 +216,66 @@ align-items: center;
 
 
 .contactanos{
-border: 5px solid;
-align-items: center;
-}
+position: relative;
+border: 1px solid; 
+padding-top: 2px;
+font-size: 12px;
+cursor: pointer;
+top: 17px;
+margin-left: 40px;
+padding: 3px;
+border-radius: 5px;
+
+
+ }
+
+
+
 
 .parrofodos
 {
+    position: absolute;
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left: 990px;
+    color: white;
+}
 
+
+.trabajaConNosotros{
+    border: 1px solid;
+    text-align: center;
+    padding: 4px;
 }
 
 
 
+.botonDeArrepentimiento{
+ text-decoration: underline;
+}
 
 
+.parrafotres{
+    padding-left: 230px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: white;
+    font-weight: bolder;
+
+}
 
 
 
 .parrafoUltimo{
- position: relative;
-;    
+  text-align: center;
+  font-size: 12px;
+  background-color: rgb(229, 229, 229);
+}
+
     
-    }
 
 
 
 
 
 
-@media screen and (max-width: 320px) {
-    .cuerpo{ 
-  flex-direction: column;
-      font-size: 2px;       
-
-}
-              
-}
