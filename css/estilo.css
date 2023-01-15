@@ -14,9 +14,7 @@ justify-content: center;
 
 }
 
-.logoContendor{
 
- }
 
 
 .barra{
@@ -25,7 +23,7 @@ justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px ;
     align-items:center;
-
+    
 }
 
 .navegador{
@@ -139,56 +137,64 @@ padding-left: 70px;
 .iconoCircular{
 color: rgb(255, 255, 255);
 position: absolute;
-padding-left: 580px;
+padding-left: 544px;
 font-size: 30px;
 }
 
 .irAlCarrito i{
-font-size: 20px;
+font-size: 50px;
 }
 
 
 .irAlCarrito span{
 background-color: red;
-width: 18px;
-height: 18px;
+width: 25px;
+height: 25px;
 border-radius: 50%;
-font-size: 12px;
+font-size: 20px;
 line-height: 0px;
 color: white;
 display: flex;
 justify-content: center;
 align-items: center;
 position: absolute;
-padding-top: -1000px;
+top: 0.5px;
+left: 35px;
+font-weight: bolder;
 }
 
 .irAlCarrito{
     position: relative;
 }
 .pieDePagina{
+ 
     background: rgb(253, 97, 26);
     display: flex;
 }
 
 .imagen{
 
+height: 1px;
+width: 1px;
+
 }
 
 
 .parrafoUno{
-text-align: center;
-padding-right: 20%;
+position: relative;
+padding-left: 20%;
+color: white;
+padding: 0px 600px;
+margin-top: 14px;
 
 }
 
 .ayuda{
-
-}
+  align-self: center };
 
 
 .sitenéssugerenciasocomentarios{
- 
+align-items: center; 
 
 
 }
@@ -198,8 +204,8 @@ padding-right: 20%;
 
 
 .contactanos{
-
-
+border: 5px solid;
+align-items: center;
 }
 
 .parrofodos
@@ -215,9 +221,9 @@ padding-right: 20%;
 
 
 .parrafoUltimo{
-    padding: 20px 20px;
-    text-align: center;
-    box-sizing: border-box;
+ position: relative;
+;    
+    
     }
 
 
@@ -225,6 +231,11 @@ padding-right: 20%;
 
 
 
+@media screen and (max-width: 320px) {
+    .cuerpo{ 
+  flex-direction: column;
+      font-size: 2px;       
 
-
- 
+}
+              
+}
