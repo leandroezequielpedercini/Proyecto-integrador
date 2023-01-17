@@ -11,11 +11,20 @@
 background: rgb(253, 97, 26);
  display: flex;
 justify-content: center;
+animation-name: pedidos-unicamente-por-web;
+animation-duration: 4s;
 
 }
 
-
-
+@keyframes pedidos-unicamente-por-web {
+    0%{
+        transform: translate(-500px);
+        }
+    
+    100%{
+        transform: translate(0px) ;
+        }
+    }
 
 .barra{
     display: flex;
@@ -23,8 +32,21 @@ justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px ;
     align-items:center;
-    
+    animation-name: compra-gamer;
+    animation-duration: 4s;
 }
+
+@keyframes compra-gamer {
+    0%{
+        transform: translate(-500px);
+        
+        
+    }
+    
+    100%{
+        transform: translate(0px) ;
+            }
+        }
 
 .navegador{
     background: rgb(253, 97, 26);
@@ -45,6 +67,7 @@ a{
 .link:hover{
 cursor: pointer;
 color: white;
+transition: all 1s ease;
 }
 
 .busquedaContendor{
@@ -57,9 +80,8 @@ top: 18px;
 left: 500px;
 color: rgb(160, 157, 157);
 font-size: 1.2rem;
-
-
   }
+
 .buscador{
     padding: 20px;
     padding-left: 40px; ;
@@ -69,10 +91,6 @@ font-size: 1.2rem;
     width: 500px;
     margin-left: 40px;
 }
-
-
-
-
 
 .carta{
     box-shadow:  0px 2px 5px black;
@@ -85,8 +103,28 @@ font-size: 1.2rem;
     margin-bottom: 200px; 
     border-radius: 5px; 
     text-align: center;
-
     }
+
+.publicidad{
+    text-align: center;
+    animation-name: publicidad;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    }
+
+
+    @keyframes publicidad {
+        0%{
+            transform: translateX(200px);
+        }
+        
+        100%{ 
+            transform: translateX((0%))
+        }
+    }
+
+
+
 
 .carta img{
     width: 120px;
@@ -94,9 +132,8 @@ font-size: 1.2rem;
 
 .carta h3{
     font-size: 0.7rem;
+    }
     
-     }
-
 .carta p{
     color: #4675b9;
 }
@@ -104,12 +141,12 @@ font-size: 1.2rem;
 .cartaContenedor{
     display:flex;
     justify-content: space-between
-          
          } 
+
 .seccionProductos{
     margin: 10vh 5vh;
 }
-   
+
 .novedades{
  border-bottom: black 2px solid; 
  
@@ -124,10 +161,9 @@ font-size: 1.2rem;
     font-size: 20px;
     font-size: inherit;
     font-size: 30px;
-     
- }
+      }
 
-.botonInicar{
+ .botonInicar{
 color: white;
 padding: 5px 20px 5px 30px ;
 padding-left: 70px;
@@ -167,8 +203,6 @@ font-weight: bolder;
     position: relative;
 }
 
-
-
 .pieDePagina{
     background: rgb(253, 97, 26);
     display: flex;
@@ -179,15 +213,10 @@ font-weight: bolder;
     position: absolute;
     padding-right: 700px;
     height: 1px;
-    padding-top: 17px;
+    padding-top: 25px;
 }
 
-
-    
-
 .parrafoUno{
-
-
 color: white;
 padding: 0px 500px;
 margin-top: -1px;
@@ -202,38 +231,29 @@ text-align: center;
      
 }
 
-
-
-
 .sitenéssugerenciasocomentarios{
 position: absolute;
 padding-right: 0%;
 
 }
 
-
-
-
-
 .contactanos{
-position: relative;
 border: 1px solid; 
 padding-top: 2px;
 font-size: 12px;
 cursor: pointer;
-top: 17px;
+top: 18px;
 margin-left: 40px;
-padding: 3px;
+margin-top: 40px;
 border-radius: 5px;
-
-
  }
 
+:hover.contactanos{
 
+ cursor: pointer;
+}
 
-
-.parrofodos
-{
+.parrofodos{
     position: absolute;
     padding-top: 10px;
     font-size: 12px;
@@ -241,20 +261,28 @@ border-radius: 5px;
     color: white;
 }
 
-
 .trabajaConNosotros{
+    border:none;
     border: 1px solid;
-    text-align: center;
+    border-radius: 5px;
+        text-align: center;
     padding: 4px;
 }
 
-
+:hover.trabajaConNosotros{
+    cursor: pointer;
+    transition: all 2s easy;
+    color: rgb(253, 97, 26);;
+    background-color: white;
+}
 
 .botonDeArrepentimiento{
  text-decoration: underline;
 }
 
-
+:hover.botonDeArrepentimiento{
+    text-decoration: none;
+}
 .parrafotres{
     padding-left: 230px;
     padding-top: 15px;
@@ -264,18 +292,12 @@ border-radius: 5px;
 
 }
 
-
-
 .parrafoUltimo{
   text-align: center;
   font-size: 12px;
   background-color: rgb(229, 229, 229);
+
 }
-
-    
-
-
-
 
 
 
