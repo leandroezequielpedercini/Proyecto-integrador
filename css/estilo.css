@@ -11,20 +11,15 @@
 background: rgb(253, 97, 26);
  display: flex;
 justify-content: center;
-animation-name: pedidos-unicamente-por-web;
-animation-duration: 4s;
+
 
 }
 
-@keyframes pedidos-unicamente-por-web {
-    0%{
-        transform: translate(-500px);
-        }
-    
-    100%{
-        transform: translate(0px) ;
-        }
-    }
+.logoContendor{
+    animation-name: compra-gamer;
+    animation-duration: 4s;  
+     
+}
 
 .barra{
     display: flex;
@@ -32,8 +27,7 @@ animation-duration: 4s;
     padding-top: 20px;
     padding-bottom: 20px ;
     align-items:center;
-    animation-name: compra-gamer;
-    animation-duration: 4s;
+   
 }
 
 @keyframes compra-gamer {
@@ -45,7 +39,9 @@ animation-duration: 4s;
     
     100%{
         transform: translate(0px) ;
-            }
+            
+    }
+        
         }
 
 .navegador{
@@ -106,21 +102,26 @@ font-size: 1.2rem;
     }
 
 .publicidad{
+    font-size: 200%;
     text-align: center;
     animation-name: publicidad;
-    animation-duration: 2s;
+    animation-duration: 6s;
     animation-iteration-count: infinite;
     }
 
 
     @keyframes publicidad {
         0%{
-            transform: translateX(200px);
+            transform: translateX(-160px);
+          
         }
         
         100%{ 
-            transform: translateX((0%))
+        
+            transform: translateX(160%);
+             
         }
+
     }
 
 
@@ -250,7 +251,6 @@ border-radius: 5px;
 
 :hover.contactanos{
 
- cursor: pointer;
 }
 
 .parrofodos{
@@ -265,7 +265,7 @@ border-radius: 5px;
     border:none;
     border: 1px solid;
     border-radius: 5px;
-        text-align: center;
+    text-align: center;
     padding: 4px;
 }
 
