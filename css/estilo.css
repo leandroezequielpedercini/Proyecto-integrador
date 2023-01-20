@@ -7,6 +7,21 @@
      
    }
 
+
+@media screen and (max-width: 320px) {
+.cuerpo{   
+    flex-direction: column;
+    align-items: center;
+    font-size: 10%;
+    
+    }
+    .navegador{
+    SSdisplay: none;
+    }
+    
+    }  
+    
+        
 .encabezado{
 background: rgb(253, 97, 26);
  display: flex;
@@ -32,7 +47,7 @@ justify-content: center;
 
 @keyframes compra-gamer {
     0%{
-        transform: translate(-500px);
+        transform: translate(-50px);
         
         
     }
@@ -105,21 +120,24 @@ font-size: 1.2rem;
     font-size: 200%;
     text-align: center;
     animation-name: publicidad;
-    animation-duration: 6s;
+    animation-duration: 3.5s;
     animation-iteration-count: infinite;
     }
 
 
     @keyframes publicidad {
         0%{
-            transform: translateX(-160px);
+            transform: translateX(100px);
           
         }
         
         100%{ 
         
-            transform: translateX(160%);
+            transform: translateX(-100%);
              
+        }
+        0%{
+            transform: translateX(100);
         }
 
     }
@@ -210,53 +228,53 @@ font-weight: bolder;
 }
 
 .imagen{
-    Scale: 0.2;
+    
+    Scale: 0.4;
     position: absolute;
     padding-right: 700px;
     height: 1px;
-    padding-top: 25px;
+    padding-top: 31px;
 }
 
 .parrafoUno{
 color: white;
 padding: 0px 500px;
-margin-top: -1px;
-font-size: 12px;
+margin-top: 30px;
+font-size: 17px;
 text-align: center;
 
 }
 
 .ayuda{
-    
-   font-weight: bold;
+   margin: 100%
+   
      
 }
 
 .sitenéssugerenciasocomentarios{
 position: absolute;
-padding-right: 0%;
+padding-right: 50%;
 
 }
 
 .contactanos{
-border: 1px solid; 
-padding-top: 2px;
-font-size: 12px;
-cursor: pointer;
-top: 18px;
-margin-left: 40px;
-margin-top: 40px;
-border-radius: 5px;
- }
+ padding-left:  10px;
+    margin: 50px;
+    padding: 5px;
+    border: 1px solid;}
 
-:hover.contactanos{
+:hover.contactanos{   
+background-color: white;
+color: rgb(253, 97, 26);
+cursor: pointer;
+border: 2px solid;
 
 }
 
 .parrofodos{
     position: absolute;
-    padding-top: 10px;
-    font-size: 12px;
+    padding-top: 40px;
+    font-size: 17px;
     padding-left: 990px;
     color: white;
 }
@@ -264,15 +282,14 @@ border-radius: 5px;
 .trabajaConNosotros{
     border:none;
     border: 1px solid;
-    border-radius: 5px;
-    text-align: center;
+     text-align: center;
     padding: 4px;
 }
 
 :hover.trabajaConNosotros{
     cursor: pointer;
     transition: all 2s easy;
-    color: rgb(253, 97, 26);;
+    color: rgb(253, 97, 26);
     background-color: white;
 }
 
@@ -284,9 +301,9 @@ border-radius: 5px;
     text-decoration: none;
 }
 .parrafotres{
-    padding-left: 230px;
-    padding-top: 15px;
-    font-size: 12px;
+    padding-left: 90px;
+    padding-top: 30px;
+    font-size: 16px;
     color: white;
     font-weight: bolder;
 
@@ -296,8 +313,8 @@ border-radius: 5px;
   text-align: center;
   font-size: 12px;
   background-color: rgb(229, 229, 229);
-
 }
+
 
 
 
